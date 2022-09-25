@@ -1,0 +1,90 @@
+
+.container1{
+  margin:0 auto;
+  width: 60%;
+  height: 500px;
+  background-color: blueviolet;
+}
+.row{
+  padding-left: 100px;
+  width: 600px;
+}
+.btn-style button{
+  background-color: rgb(1, 19, 44);
+  color: white;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: none;
+}
+button:hover{
+  background-color: rgb(148, 1, 25);
+  color: black;
+}
+
+
+.todo{
+  margin: 30px;
+  width: 600px;
+  
+}
+.taskNumber{
+  color: white;
+  border: 2px solid rgb(200, 194, 211);
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBg{
+
+  background-color: rgb(148, 1, 25);
+  color:white;
+  border-radius: 6px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;  
+}
+.taskBg div{
+  display: flex;
+  align-items: center;
+}
+.taskBg .done .taskText{
+  flex: 1;
+}
+.taskBg .done .taskText{
+  text-decoration: line-through;
+  opacity: 0.3;
+
+}
+.iconWrap{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  right:15px;
+  width: auto;
+  display: inline-block;
+}
+.taskBg .iconWrap span{
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+  color: white;
+}
+.taskBg .iconWrap span:hover{
+  color: rgb(11, 247, 235);
+}
+
+.mr-20{
+  margin-right: 20px;
+}
